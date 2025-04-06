@@ -57,7 +57,7 @@ namespace HtmlTextExtractor
             }
             catch (Exception ex)
             {
-                Console.WriteLine("An error occurred: " + ex.Message);
+                Console.WriteLine("An error occurred durring processing: " + ex.Message);
             }
 
             return resultFilePath;
